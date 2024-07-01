@@ -60,5 +60,10 @@
 
 ![200000轮时效果](https://github.com/liuyhoong/nerf/blob/main/tinywow_cup_spiral_200000_rgb_59313903.gif)
 
+##### 3.5.3 实验结果分析
 
-## 压缩文件中images为数据集，nerf-pytorch为主要运行代码文件，只需要解压两个压缩文件后在终端运行python run_nerf.py --config ./configs/cup.txt命令行即可
+由于训练集是本身用相机来拍出来的，由于拍的照片质量不高，所以生成的结果效果较为模糊，而且照片在生成结果之前，采用了8倍降采样操作，这也会导致生成的结果非常模糊！
+而且可能拍摄角度不够丰富，并没有覆盖尽可能多的视角，这也是产生视频模糊的原因之一，但是最终的视频结果虽然没有那么清晰，但是依然可以观察出一定的效果。
+
+
+## 压缩文件中images为数据集，nerf-pytorch为主要运行代码文件，只需要解压两个压缩文件后在终端运行python run_nerf.py --config ./configs/cup.txt命令行即可，最终生成的结果在nerf-pytorch下面的logs文件夹中。
