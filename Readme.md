@@ -53,6 +53,9 @@
 下面是模型在运行到50000、100000、150000、200000代时的效果：
 
 ![50000轮时效果](https://github.com/liuyhoong/nerf/blob/main/tinywow_cup_spiral_050000_rgb_59313525.gif)
+![100000轮时效果](https://github.com/liuyhoong/nerf/blob/main/tinywow_cup_spiral_100000_rgb_59313719.gif)
+![150000轮时效果](https://github.com/liuyhoong/nerf/blob/main/tinywow_cup_spiral_150000_rgb_59313820.gif)
+![200000轮时效果](https://github.com/liuyhoong/nerf/blob/main/tinywow_cup_spiral_200000_rgb_59313903.gif)
 
 
 ## 压缩文件中images为数据集，nerf-pytorch为主要运行代码文件，只需要解压两个压缩文件后在终端运行python run_nerf.py --config ./configs/cup.txt命令行即可
